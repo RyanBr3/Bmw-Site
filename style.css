@@ -1,0 +1,79 @@
+/* font-family: "BMWTypeNext Pro Regular"; 
+font-family: 'Oswald', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: "BMW Type Web Light All";
+*/
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body {
+    background-image: url(/imgs/bmw_g80.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 50px;
+}
+
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+    height: 60px;
+}
+
+
+.border {
+    margin-top: 8px;
+    width: 1340px;
+}
+
+.p-cabecalho {
+    width: 1300px;
+    align-content: flex-start;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.cabecalho-imagem {
+    height: 50px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+    font-size: 18px;
+    margin-right: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.procureECompre {
+    width: 151px;
+
+    align-items: flex-end;
+    justify-content: end;
+
+    margin-top: 735px;
+    height: 25px;
+
+    font-family: "BMWTypeNext Pro Regular";
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #262626eb;
+    line-height: 1.0rem;
+    text-rendering: optimizeSpeed;
+}
+
+
+
