@@ -18,7 +18,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     
-    height: 50px;
+    height: 830px;
 }
 
 
@@ -41,7 +41,6 @@ body {
     align-content: flex-start;
 
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
 }
 
 .cabecalho-imagem {
@@ -63,7 +62,7 @@ body {
     align-items: flex-end;
     justify-content: end;
 
-    margin-top: 735px;
+    margin-top: 770px;
     height: 25px;
 
     font-family: "BMWTypeNext Pro Regular";
@@ -73,6 +72,140 @@ body {
     color: #262626eb;
     line-height: 1.0rem;
     text-rendering: optimizeSpeed;
+}
+
+.EncontreOSeuBmw {
+    width:  520px;
+    height: 60px;
+    
+    font-weight: 100;
+    color: #171717;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 50px;
+}
+
+.main-encontre-pesquisar {
+    display: flex;
+    flex-direction: column;
+    
+    margin-right: 960px;
+    height: 210px;
+    width: 320px;
+}
+
+.main-encontre-pesquisar-img {
+    margin-left: -10px;
+    height: 120px;
+}
+
+.main-encontre-pesquisar-p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+
+    font-weight: 400;
+}
+
+.main-encontre-pesquisar-button {
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 105px;
+
+    font-size: 14px;
+    font-weight: 630;
+
+    border-radius: 2px;
+    border-width: 1px;
+}
+
+.main-encontre-pesquisar-button:hover{
+    border-color: transparent !important;
+    }
+
+.main-encontre-pesquisar-used {
+        display: flex;
+        flex-direction: column;
+        
+        margin-top: -210px;
+        margin-right: 550px;
+        height: 210px;
+        width: 320px;
+}
+
+.main-encontre-pesquisar-img-used {
+    margin-right: 0px;
+    height: 120px;
+}
+
+.main-encontre-pesquisar-p-used {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.main-encontre-pesquisar-button-used {
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 115px;
+
+    font-size: 14px;
+    font-weight: 630;
+
+    border-radius: 2px;
+    border-width: 1px;
+}
+
+.main-encontre-pesquisar-button-used:hover{
+border-color: transparent !important;
+}
+
+.main-encontre-pesquisar-configuration {
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: -210px;
+    margin-right: 130px;
+    height: 210px;
+    width: 320px;
+}
+
+.main-encontre-pesquisar-img-configuration {
+margin-right: 0px;
+height: 120px;
+}
+
+.main-encontre-pesquisar-p-configuration {
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+}
+
+.main-encontre-pesquisar-button-configuration {
+margin-top: 10px;
+height: 100px;
+width: 180px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 80px;
+
+font-size: 14px;
+font-weight: 630;
+
+border-radius: 2px;
+border-width: 1px;
+}
+
+.main-encontre-pesquisar-button-configuration:hover {
+    border-color: transparent !important;
 }
 
 
