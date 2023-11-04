@@ -238,7 +238,7 @@ transition: 300ms;
 .photobmwM440i-main-button {
     position:absolute;
     z-index:1;
-    top: 168%;
+    top: 172%;
     right:84%;
     width: 180px;
     height: 43px;
@@ -276,7 +276,7 @@ transition: 300ms;
 .photobmwg16-main-button {
     position:absolute;
     z-index:1;
-    top: 237%;
+    top: 244%;
     right: 8%;
     width: 180px;
     height: 43px;
@@ -306,6 +306,8 @@ transition: 300ms;
 
 .ibama-and-text-legal {
     display: flex;
+
+    box-sizing: border-box;
 }
 
 .ibama-img {
@@ -329,4 +331,41 @@ transition: 300ms;
         width: 100%;
         flex-direction: column;
     }    
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-top: 150px;
+    margin-right: 300px;
+
+    list-style: none;
+}
+
+.ul-list-contato, .ul-list-meu-bmw, .ul-list-bmw-connecteddrive {
+    list-style: none !important;
+}
+
+.list-contato-p-contato, .list-contato-p-meu-bmw, .list-bmw-connecteddrive {
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.list-contato-p {
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(69, 69, 69);
+
+    text-decoration: none;
+
+    padding: 3px;
+    display:list-item;
+    flex-direction: column;
+
+    box-sizing: border-box;
+}
+
+.list-contato-p:hover {
+    color: #171717f7;
 }
