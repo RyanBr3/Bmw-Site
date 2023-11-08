@@ -364,8 +364,35 @@ transition: 300ms;
     flex-direction: column;
 
     box-sizing: border-box;
+
+    transition: 300ms;
 }
 
 .list-contato-p:hover {
     color: #171717f7;
+
+    transform: scale(1.1);
+    
+    transition: 200ms linear; 
+}
+
+.footer-icons {
+    margin-left: 130px;
+}
+
+.footer-icons-img {
+    height: 30px;
+    margin-top: 60px;
+
+    transition: 300ms;
+}
+
+.footer-icons-img:hover {
+    transform: scale(1.8);
+    
+    transition: 200ms linear; 
+}
+
+.footer-termos {
+    margin-top: 50px;
 }
