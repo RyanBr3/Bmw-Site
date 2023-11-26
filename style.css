@@ -45,6 +45,7 @@ body {
 
 .cabecalho-imagem {
     height: 50px;
+    margin-left: 90px;
 }
 
 .cabecalho-menu {
@@ -55,6 +56,17 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
+
+.cabecalho-menu a{
+    transition: 300ms;
+}
+
+.cabecalho-menu a:hover{
+    transform: scale(1.1);
+    
+    transition: 200ms linear; 
+}
+
 
 .procureECompre {
     width: 180px;
